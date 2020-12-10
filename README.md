@@ -89,7 +89,7 @@ usage: main.py [-h] [--dataset DATASET] [--num_labeled L]
 ### Detailed list of Arguments
 
 |arg|default|help|
-| :---: | :---: | :---: | :---: |
+| --- | --- | --- | --- |
 |`--help`||show this help message and exit|
 |`--dataset`|`cifar10`|dataset: cifar10, svhn or imagenet|
 |`--num_labeled`|`400`|number of labeled samples per class|
