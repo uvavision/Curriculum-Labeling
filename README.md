@@ -20,7 +20,7 @@ In this paper we revisit the idea of pseudo-labeling in the context of semi-supe
 We empirically demonstrate that pseudo-labeling can in fact be competitive with the state-of-the-art, while being more resilient to out-of-distribution samples in the unlabeled set. We identify two key factors that allow pseudo-labeling to achieve such remarkable results (1) applying curriculum learning principles and (2) avoiding concept drift by restarting model parameters before each self-training cycle. We obtain 94.91% accuracy on CIFAR-10 using only 4,000 labeled samples, and 68.87% top-1 accuracy on Imagenet-ILSVRC using only 10% of the labeled samples.
 <br>
 <br>
-<p align="center" style="font-family:courier;font-size:110%;">
+<p align="center" style="font-family:courier;font-size:105%;">
   <img src="https://github.com/uvavision/Curriculum-Labeling/blob/main/imgs/Method.gif?raw=true" />
   <br>
   Curriculum Labeling (CL) Algorithm.
