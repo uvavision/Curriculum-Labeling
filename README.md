@@ -10,8 +10,8 @@ Learning</h2>
 <p align="center">
   <a href="#about">About</a> •
   <a href="#about">Requirements</a> •
-  <a href="#usage">Train/Eval</a> •
-  <a href="#design">Bibtex</a>
+  <a href="#train/eval">Train/Eval</a> •
+  <a href="#bibtex">Bibtex</a>
 </p>
 
 
