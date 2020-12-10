@@ -10,7 +10,7 @@ Learning</h2>
 <p align="center">
   <a href="#about">About</a> •
   <a href="#about">Requirements</a> •
-  <a href="#train/eval">Train/Eval</a> •
+  <a href="#train">Train/Eval</a> •
   <a href="#bibtex">Bibtex</a>
 </p>
 
@@ -29,7 +29,7 @@ We empirically demonstrate that pseudo-labeling can in fact be competitive with 
 - Download both [zca_components.npy](http://cs.virginia.edu/~pcascante/zca_components.npy) and [zca_mean.npy](http://cs.virginia.edu/~pcascante/zca_mean.npy). Save them in the main folder (Curriculum-Labeling).
 
 
-## Train/Eval
+## Train
 
 ### TL;DR
 Run the command below to reproduce one of our experiments on CIFAR-10 with WideResNet-28-2:
@@ -89,7 +89,7 @@ usage: main.py [-h] [--dataset DATASET] [--num_labeled L]
 ### Detailed list of Arguments
 
 |arg|default|help|
-| --- | --- | --- | --- |
+| --- | --- | --- |
 |`--help`||show this help message and exit|
 |`--dataset`|`cifar10`|dataset: cifar10, svhn or imagenet|
 |`--num_labeled`|`400`|number of labeled samples per class|
