@@ -140,12 +140,9 @@ class Wrapper:
         loaders = dataloaders.get_train_dataloaders(self.args.dataset, self.args.train_data, self.args.train_data_noT, self.args.batch_size, self.args.n_cpus, self.args.num_labeled, self.args.num_valid_samples, self.args.seed, self.args.set_labeled_classes, self.args.set_unlabeled_classes, ordered=False)
         self.set_loaders(loaders)
 
-        # get test set if in debug mode
-        if self.args.debug:
-            testloader = dataloaders.get_test_dataloader(self.args.test_data, self.args.batch_size, self.args.n_cpus)
-            self.args.testloader = testloader
-        else:
-            self.args.testloader = None
+        # get test set if in debug mode and for final evaluation
+        testloader = dataloaders.get_test_dataloader(self.args.test_data, self.args.batch_size, self.args.n_cpus)
+        self.args.testloader = testloader
 
 
     def set_model_hyperparameters(self, ema=False):
